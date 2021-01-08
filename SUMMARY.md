@@ -38,8 +38,6 @@
   * [Delete](objects/delete.md)
   * [Enumeration](objects/enumeration.md)
   * [Global footprint](objects/global_footprint.md)
-
-## Cookies
-
-* [Cookies](cookies/untitled.md)
+* [Browser Object Model \(BOM\)](browser-object-model-bom/README.md)
+  * [Cookies](browser-object-model-bom/cookies.md)
 
