@@ -38,7 +38,10 @@
   * [Delete](objects/delete.md)
   * [Enumeration](objects/enumeration.md)
   * [Global footprint](objects/global_footprint.md)
-* [Cookies](untitled.md)
 
 ## Storage
+
+---
+
+* [Cookies](untitled.md)
 
