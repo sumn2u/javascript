@@ -1,4 +1,4 @@
-# For Loop
+# For
 
 The easiest form of a loop is the for statement. This one has a syntax that is similar to an if statement, but with more options:
 
@@ -16,23 +16,5 @@ for (var i = 0; i < 10; i = i + 1) {
 }
 ```
 
-> **_Note_**: `i = i + 1` can be written `i++`.
+> _**Note**_: `i = i + 1` can be written `i++`.
 
-{% exercise %}
-Using a for-loop, create a variable named `message` that equals the concatenation of integers (0, 1, 2, ...) from 0 to 99.
-{% initial %}
-var message = "";
-{% solution %}
-var message = "";
-
-for(var i = 0; i < 100; i++){
-message = message + i;
-}
-{% validation %}
-var message2 = ""
-
-for(var i = 0; i < 100; i++){
-message2 = message2 + i;
-}
-assert(message === message2);
-{% endexercise %}

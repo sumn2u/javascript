@@ -2,7 +2,7 @@
 
 Objects are **never copied**. They are passed around by reference.
 
-```js
+```javascript
 // Imagine I had a pizza
 var myPizza = { slices: 5 };
 // And I shared it with You
@@ -21,3 +21,4 @@ a = b = c = {};
 // a, b, and c all refer to
 // the same empty object
 ```
+

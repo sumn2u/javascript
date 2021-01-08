@@ -2,7 +2,7 @@
 
 The `for in` statement can loop over all of the property names in an object. The enumeration will include functions and prototype properties.
 
-```js
+```javascript
 var fruit = {
     apple: 2,
     orange: 5,
@@ -18,3 +18,4 @@ for (kind in fruit) {
 sentence = sentence.substr(0, sentence.length - 2) + ".";
 // I have 2 apples, 5 oranges, 1 pear.
 ```
+

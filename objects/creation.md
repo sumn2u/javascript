@@ -4,17 +4,18 @@ There are two ways to create an `object` in JavaScript:
 
 1. literal
 
-   ```js
+   ```javascript
    var object = {};
    // Yes, simply a pair of curly braces!
    ```
 
-   > **_Note:_** this is the **recommended** way.
+   > _**Note:**_ this is the **recommended** way.
 
 2. and object-oriented
 
-   ```js
+   ```javascript
    var object = new Object();
    ```
 
-   > **_Note:_** it's almost like Java.
+   > _**Note:**_ it's almost like Java.
+

@@ -2,7 +2,7 @@
 
 Object's property is a `propertyName`: `propertyValue` pair, where **property name can be only a string**. If it's not a string, it gets casted into a string. You can specify properties **when creating** an object **or later**. There may be zero or more properties separated by commas.
 
-```js
+```javascript
 var language = {
   name: "JavaScript",
   isSupportedByBrowsers: true,
@@ -21,7 +21,7 @@ var language = {
 
 The following code demonstrates how to **get** a property's value.
 
-```js
+```javascript
 var variable = language.name;
 // variable now contains "JavaScript" string.
 variable = language["name"];
@@ -32,9 +32,10 @@ variable = language.newProperty;
 
 The following example shows how to **add** a new property **or change** an existing one.
 
-```js
+```javascript
 language.newProperty = "new value";
 // Now the object has a new property. If the property already exists, its value will be replaced.
 language["newProperty"] = "changed value";
 // Once again, you can access properties both ways. The first one (dot notation) is recomended.
 ```
+

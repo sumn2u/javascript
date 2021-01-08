@@ -6,6 +6,7 @@ In this course we will cover the basics. How to create new strings and perform c
 
 Here is an example of a string:
 
-```
+```text
 "Hello World"
 ```
+

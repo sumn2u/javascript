@@ -24,24 +24,3 @@ if (country === "England") {
 }
 ```
 
-{% exercise %}
-Fill up the value of `name` to validate the `else` condition.
-{% initial %}
-var name =
-
-if (name === "John") {
-
-} else if (name === "Aaron") {
-// Valid this condition
-}
-{% solution %}
-var name = "Aaron";
-
-if (name === "John") {
-
-} else if (name === "Aaron") {
-// Valid this condition
-}
-{% validation %}
-assert(name === "Aaron");
-{% endexercise %}

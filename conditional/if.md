@@ -1,4 +1,4 @@
-# Condition If
+# If
 
 The easiest condition is an if statement and its syntax is `if(condition){ do this … }`. The condition has to be true for the code inside the curly braces to be executed. You can for example test a string and set the value of another string dependent on its value:
 
@@ -40,20 +40,3 @@ var message =
 
 **Note:** Conditions can also be nested.
 
-{% exercise %}
-Fill up the value of `name` to validate the condition.
-{% initial %}
-var name =
-
-if (name === "John") {
-
-}
-{% solution %}
-var name = "John";
-
-if (name === "John") {
-
-}
-{% validation %}
-assert(name === "John");
-{% endexercise %}

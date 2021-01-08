@@ -1,10 +1,8 @@
 # Delete
 
-`delete` can be used to **remove a property** from an object. It will remove a property from the
-object if it has one. It will not look further in the prototype chain.
-Removing a property from an object may allow a property from the prototype chain to shine through:
+`delete` can be used to **remove a property** from an object. It will remove a property from the object if it has one. It will not look further in the prototype chain. Removing a property from an object may allow a property from the prototype chain to shine through:
 
-```js
+```javascript
 var adult = { age: 26 },
   child = Object.create(adult);
 child.age = 8;
@@ -14,3 +12,4 @@ delete child.age;
 var prototypeAge = child.age;
 // 26, because child does not have its own age property.
 ```
+
