@@ -39,9 +39,7 @@
   * [Enumeration](objects/enumeration.md)
   * [Global footprint](objects/global_footprint.md)
 
-## Storage
+## Cookies
 
----
-
-* [Cookies](untitled.md)
+* [Cookies](cookies/untitled.md)
 
