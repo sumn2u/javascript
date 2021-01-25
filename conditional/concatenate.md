@@ -1,6 +1,6 @@
 # Concatenate
 
-Furthermore you can concatenate different conditions with "or” or “and” statements, to test whether either statement is true, or both are true, respectively.
+Furthermore. you can concatenate different conditions with "or” or “and” statements, to test whether either statement is true, or both are true, respectively.
 
 In JavaScript “or” is written as `||` and “and” is written as `&&`.
 
@@ -20,5 +20,5 @@ if (country === "England" || country === "Germany") {
 }
 ```
 
-**Note**: Just like operations on numbers, Condtions can be grouped using parenthesis, ex: `if ( (name === "John" || name === "Jennifer") && country === "France")`.
+**Note**: Just like operations on numbers, Conditions can be grouped using parenthesis, ex: `if ( (name === "John" || name === "Jennifer") && country === "France")`.
 

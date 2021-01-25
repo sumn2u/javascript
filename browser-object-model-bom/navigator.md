@@ -13,14 +13,14 @@ Let's look at a  few examples of navigation.
 
    > _**Note:**_ "Netscape" is the application name for IE11, Chrome, Firefox, and Safari.
 
-2. **navigator.cookieEnabled** : Returns a boolean value based on the cookie value in the browser.
+2. **navigator.cookieEnabled**: Returns a boolean value based on the cookie value in the browser.
 
    ```javascript
    navigator.cookieEnabled;
    //true
    ```
 
-3. **navigator.patform**: Provides information about the browser operating system.
+3. **navigator.platform**: Provides information about the browser operating system.
 
    ```javascript
    navigator.patform;

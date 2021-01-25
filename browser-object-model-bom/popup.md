@@ -2,16 +2,16 @@
 
 Popups are an additional way to show information, take user confirmation, or take user input from additional documents. A popup can navigate to a new URL and send information to the opener window. **Alert box**, **Confirmation box**,  and **Prompt box** are the global functions where we can show the popup information.
 
-1. **alert\(\)**: It displays  information to the user and has "**OK**" button to proceed.
+1. **alert\(\)**: It displays information to the user and has an  "**OK**" button to proceed.
 
    ```javascript
    alert("Alert message example");
    ```
 
-2. **confirm\(\)** : Use as a dialog box to confirm or accept something. It has "**Ok**" and "**Cancel**" to proceed. If user clicks "**Ok**" then it returns `true`, if clicked "**Cancel**" it returns  `false`. 
+2. **confirm\(\)**: Use as a dialog box to confirm or accept something. It has "**Ok**" and "**Cancel**" to proceed. If the user clicks "**Ok**" then it returns `true`, if click "**Cancel**" it returns  `false`. 
 
    ```javascript
-   let txt;
+   var txt;
    if (confirm("Press a button!")) {
      txt = "You pressed OK!";
    } else {
@@ -24,7 +24,7 @@ Popups are an additional way to show information, take user confirmation, or tak
    ```javascript
    //syntax 
    //window.prompt("sometext","defaultText");
-   let person = prompt("Please enter your name", "Harry Potter");
+   var person = prompt("Please enter your name", "Harry Potter");
 
    if (person == null || person == "") {
      txt = "User cancelled the prompt.";
