@@ -39,9 +39,11 @@
   * [Enumeration](objects/enumeration.md)
   * [Global footprint](objects/global_footprint.md)
 * [Browser Object Model \(BOM\)](browser-object-model-bom/README.md)
+  * [Window](browser-object-model-bom/window.md)
+  * [Popup](browser-object-model-bom/popup.md)
+  * [Screen](browser-object-model-bom/screen.md)
+  * [Navigator](browser-object-model-bom/navigator.md)
   * [Cookies](browser-object-model-bom/cookies.md)
   * [History](browser-object-model-bom/history.md)
   * [Location](browser-object-model-bom/location.md)
-  * [Screen](browser-object-model-bom/screen.md)
-  * [Window](browser-object-model-bom/window.md)
 
